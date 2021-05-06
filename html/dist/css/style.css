@@ -986,11 +986,11 @@ label.error {
 }
 
 .final-img {
-    width: 20em;
-    height: auto;
-    position: relative;
-    left: 12%;
-  }
+  width: 20em;
+  height: auto;
+  position: relative;
+  left: 12%;
+}
 /*-------------------------------------------------------------------------------
   4. Home Personal
 -------------------------------------------------------------------------------*/
@@ -1169,7 +1169,7 @@ label.error {
 }
 
 .slide-descr {
-  color: #928d8d;
+  color: #646464;
   font-size: 1.125rem;
   line-height: 1.66666667;
 }
@@ -1272,15 +1272,31 @@ label.error {
 }
 
 .circle-light {
-  background: #d9a7c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .circle-green {
-  background: #ad5389;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .transformLeft {
@@ -1362,7 +1378,7 @@ label.error {
   height: 70.625rem;
   left: 58.85416667% !important;
   top: auto;
-  bottom: 46.66666667% !important;;
+  bottom: 46.66666667% !important;
   right: auto;
 }
 
@@ -1647,6 +1663,12 @@ label.error {
     position: relative;
     left: 0%;
   }
+  .slide-experience-image3 {
+    display: block !important;
+  }
+  .slide-experience-image2 {
+    display: block !important;
+  }
 }
 
 /* 4.5 Slide Experiences */
@@ -1664,6 +1686,7 @@ label.error {
 }
 
 .slide-experience-image2 {
+  display: none;
   width: 41.3125rem;
   height: 31.25rem;
   background-image: url("../img/joan/pablita-success.png");
@@ -1676,6 +1699,7 @@ label.error {
 }
 
 .slide-experience-image3 {
+  display: none;
   width: 42.875rem;
   height: 39.4375rem;
   background-image: url("../img/joan/pablita-social-network-1.png");
